@@ -4,7 +4,8 @@ x = income
 
 if x < 85528:
     tax = (0.18 * x) - 556.02
-elif x > 85528:
+else: 
+    x > 85528
     tax = (0.32 * (x - 85528)) + 14839.02
 
 tax = round (tax, 0)
